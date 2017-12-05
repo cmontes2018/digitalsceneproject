@@ -44,8 +44,6 @@ function drawLeaf() {
 
  
 function drawColumnOfFlowers(){
- //draws first flower in the fir
-  drawBud();
   turnRight();
   turnRight();
   moveForward(180);
@@ -56,7 +54,6 @@ function drawColumnOfFlowers(){
   
  for (var i = 0; i < 10; i++) {
     
-    drawBud();
   turnRight();
   turnRight();
   moveForward(180);
@@ -65,8 +62,6 @@ function drawColumnOfFlowers(){
   turnLeft();
   drawFlower();
   
-  
-   drawBud();
   turnRight();
   turnRight();
   moveForward(152);
@@ -75,7 +70,7 @@ function drawColumnOfFlowers(){
   turnLeft();
   drawFlower();
   
-   drawBud();
+  
   turnRight();
   turnRight();
   moveForward(180);
@@ -85,7 +80,7 @@ function drawColumnOfFlowers(){
   drawFlower();
   
   
-   drawBud();
+  
   turnRight();
   turnRight();
   moveForward(152);
