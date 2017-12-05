@@ -6,7 +6,7 @@ penDown();
 
 hide();
 
-
+//draws one flower
 function drawFlower() {
   
 for (var i = 0; i < 4; i++) {
@@ -44,6 +44,7 @@ function drawLeaf() {
 
  
 function drawColumnOfFlowers(){
+ //draws first flower in the fir
   drawBud();
   turnRight();
   turnRight();
@@ -53,17 +54,9 @@ function drawColumnOfFlowers(){
   turnLeft(92.5);
   drawFlower();
   
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  drawBud();
+ for (var i = 0; i < 10; i++) {
+    
+    drawBud();
   turnRight();
   turnRight();
   moveForward(180);
@@ -100,329 +93,9 @@ function drawColumnOfFlowers(){
   moveForward(9);
   turnLeft();
   drawFlower();
+  }
+   
   
-  drawBud();
-  turnRight();
-  turnRight();
-  moveForward(180);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(180);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  drawBud();
-  turnRight();
-  turnRight();
-  moveForward(180);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(180);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  drawBud();
-  turnRight();
-  turnRight();
-  moveForward(180);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(180);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  drawBud();
-  turnRight();
-  turnRight();
-  moveForward(180);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(180);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  drawBud();
-  turnRight();
-  turnRight();
-  moveForward(180);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(180);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  drawBud();
-  turnRight();
-  turnRight();
-  moveForward(180);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(180);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  drawBud();
-  turnRight();
-  turnRight();
-  moveForward(180);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(180);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  drawBud();
-  turnRight();
-  turnRight();
-  moveForward(180);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(180);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  drawBud();
-  turnRight();
-  turnRight();
-  moveForward(180);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
-  
-  
-   drawBud();
-  turnRight();
-  turnRight();
-  moveForward(152);
-  turnLeft();
-  moveForward(9);
-  turnLeft();
-  drawFlower();
 
 }
 
@@ -439,12 +112,3 @@ function drawBud(){
 
 
 drawColumnOfFlowers();
-
-
-
-
-
-
-
-
-
