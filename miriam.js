@@ -1,3 +1,10 @@
+//draws brown background for flowers
+penDown();
+penColor("#a87325");
+dot(3000);
+
+
+
 
 //move to the starting position for drawing the flowers
 penUp();
