@@ -1,8 +1,10 @@
+
+//Claudia made these lines of code 
+drawSky();
 function drawSky() {
   drawSkyLayers();
   drawAllClouds();
 }
-drawSky();
 //draws one sky layer 
 function drawSkyLayer(r, g, b, a) {
   for (var i = 0; i < 50; i++) {
@@ -19,7 +21,6 @@ function drawSkyLayers() {
     drawSkyLayer(randomNumber(80, 90), randomNumber(110, 190), randomNumber(225, 255), 0.5);
   }
 }
-drawSkyLayers();
 //draws one cloud
 function drawCloud(r, g, b, a) {
   for (var i = 0; i < 1; i++) {
@@ -44,4 +45,3 @@ function drawAllClouds() {
     drawCloud(242, 244, 247, 1);
   }
 }
-drawAllClouds();
