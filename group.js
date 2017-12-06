@@ -1,5 +1,3 @@
-
-
 //draws brown background for flowers
 penDown();
 penColor("#a87325");
@@ -10,8 +8,7 @@ dot(3000);
 
 
 function drawSky() {
-  drawSkyLayers();
-  drawAllClouds();
+
 }
 drawSky();
 //draws one sky layer 
