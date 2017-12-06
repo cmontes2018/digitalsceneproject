@@ -1,5 +1,4 @@
-
-//Claudia made these lines of code 
+//Claudia developed this  code 
 drawSky();
 function drawSky() {
   drawSkyLayers();
